@@ -1,40 +1,31 @@
 # MelucioLabs
 
-Software Development & Self-Hosted Apps on a Raspberry Pi 5 Homelab.
+Webentwicklung, E-Commerce & Self-Hosted Infrastructure auf einem Raspberry Pi 5 Homelab.
 
-## Apps
+## Kundenprojekte
 
-| App | Description | Stack |
-|-----|-------------|-------|
-| **KHAI** | AI recipe generator with diabetes-friendly focus | React, FastAPI, OpenAI |
-| **Lernkarten** | Spaced repetition with Leitner system | FastAPI, SQLite |
-| **Pi-Stats** | Real-time system monitoring dashboard | FastAPI, psutil |
+| Projekt | Beschreibung | Stack |
+|---------|-------------|-------|
+| **[Alte Brennerei Ribbeck](https://alte-brennerei-ribbeck.de)** | Onlineshop mit Bestellsystem, Rechnungsgenerierung, Events & Standorte | React, Node.js, PostgreSQL |
+| **[Mückenfett](https://mueckenfett.de)** | Künstler-Website für Liedermacher aus dem Havelland | HTML/CSS, Node.js |
 
-## Infrastructure
-
-All apps run as Docker containers on a Raspberry Pi 5, accessible via Cloudflare Tunnel at `*.meluciolabs.de`. Centralized SSO through a custom auth service with JWT cookies.
-
-## Tech Stack
-
-`React` `FastAPI` `SQLite` `Docker` `Cloudflare Tunnel` `Tailscale` `GitHub Actions`
-
----
-
-<details>
-<summary>🇩🇪 Deutsch</summary>
-
-Software Entwicklung & Self-Hosted Apps auf einem Raspberry Pi 5 Homelab.
-
-### Apps
+## Interne Tools
 
 | App | Beschreibung | Stack |
 |-----|-------------|-------|
+| **Kundenportal** | Multi-Tenant-Portal mit Buchhaltung, Ticketsystem, Newsletter, Social Media | React, Node.js, SQLite |
+| **Admin Panel** | Zentrales Dashboard für Billing, Kundenverwaltung, Kalender | Node.js, SQLite |
 | **KHAI** | KI-Rezeptgenerator mit Diabetiker-Fokus | React, FastAPI, OpenAI |
-| **Lernkarten** | Spaced Repetition mit Leitner-System | FastAPI, SQLite |
-| **Pi-Stats** | Echtzeit System-Monitoring Dashboard | FastAPI, psutil |
+| **Auth Service** | Zentrales SSO für alle Apps (JWT, Cookie-basiert) | Node.js, Express |
 
-### Infrastruktur
+## Infrastruktur
 
-Alle Apps laufen als Docker-Container auf einem Raspberry Pi 5, erreichbar ueber Cloudflare Tunnel auf `*.meluciolabs.de`. Zentrales SSO ueber einen eigenen Auth-Service mit JWT-Cookies.
+Alle Apps laufen als Docker-Container auf einem **Raspberry Pi 5**, erreichbar über **Cloudflare Tunnel** auf `*.meluciolabs.de`. CI/CD über **GitHub Actions** mit automatischem Deploy per SSH.
 
-</details>
+## Tech Stack
+
+`React` `Node.js` `Express` `FastAPI` `SQLite` `PostgreSQL` `Docker` `Cloudflare Tunnel` `Tailscale` `GitHub Actions` `Nginx`
+
+---
+
+🌐 [meluciolabs.de](https://meluciolabs.de) · ✉️ kontakt@meluciolabs.de
