@@ -7,7 +7,7 @@ Webentwicklung, E-Commerce & Self-Hosted Infrastructure auf einem Raspberry Pi 5
 | Projekt | Beschreibung | Stack |
 |---------|-------------|-------|
 | **[Alte Brennerei Ribbeck](https://alte-brennerei-ribbeck.de)** | Onlineshop mit Bestellsystem, Rechnungsgenerierung, Events & Standorte | React, Node.js, PostgreSQL |
-| **[Mückenfett]([https://mueckenfett.meluciolabs.de/])** | Künstler-Website für Liedermacher aus dem Havelland | HTML/CSS, Node.js |
+| **[Mückenfett](https://mueckenfett.meluciolabs.de/)** | Künstler-Website für Liedermacher aus dem Havelland | HTML/CSS, Node.js |
 
 ## Interne Tools
 
