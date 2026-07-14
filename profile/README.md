@@ -2,20 +2,13 @@
 
 Webentwicklung, E-Commerce & Self-Hosted Infrastructure.
 
-## Kundenprojekte
-
-| Projekt | Beschreibung | Stack |
-|---------|-------------|-------|
-| **[Alte Brennerei Ribbeck](https://alte-brennerei-ribbeck.de)** | Onlineshop mit Bestellsystem, Rechnungsgenerierung, Events & Standorte | React, Node.js, PostgreSQL |
-| **Mückenfett** | Künstler-Website für Liedermacher aus dem Havelland (offline) | HTML/CSS, Node.js |
-
-## Interne Tools
+## Apps & Plattform
 
 | App | Beschreibung | Stack |
 |-----|-------------|-------|
 | **Kundenportal** | Multi-Tenant-Portal mit Buchhaltung, Ticketsystem, Newsletter, Social Media | React, Node.js, SQLite |
 | **Admin Panel** | Zentrales Dashboard für Billing, Kundenverwaltung, Kalender | Node.js, SQLite |
-| **KHAI** | KI-Rezeptgenerator mit Diabetiker-Fokus | React, FastAPI, Google Gemini |
+| **[KHAI](https://kitchenhelper-ai.de)** | KI-Rezeptgenerator mit Diabetiker-Fokus | React, FastAPI, Google Gemini |
 | **Auth Service** | Zentrales SSO für alle Apps (JWT, Cookie-basiert) | Node.js, Express |
 
 ## Infrastruktur
